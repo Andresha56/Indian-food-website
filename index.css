@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Raleway:wght@500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+/* --------global-----values---------------- */
+
+a{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+.wrapper{
+    width: 95%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+
+main #banner{
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(./images/banner-Img.png);
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:bottom;
+}
+main #banner .wrapper{
+    height: 100%;
+}
+main #banner .wrapper #logo a{
+    font-size: 3rem;
+}
+main #banner header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 40px 0 40px ;
+
+}
+main #banner header nav ul{
+    display: flex;
+
+}
+
+main #banner header nav ul li{
+    list-style-type:none;
+    margin: 0 20px;
+}
+
+main #banner #banner-content{
+    height:calc(100% - 80px);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+main #banner #banner-content #content{
+    padding:6rem 7rem;
+    background-color:rgba(255,255,255,0.7);
+    text-align: center;
+}
+
+main #banner #banner-content #content h1{
+    color: #2c3a42;
+    font-size: 5rem;
+    font-family: 'Cookie', cursive;
+    font-weight: lighter;
+}
+
+
+main #banner #banner-content #content h2{
+    color:#ad6c12; 
+    font-size: 5rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+main #banner #banner-content #content button{
+    border-color: #fff;
+    border: 0;
+    outline: 0;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #2c3a42;
+    font-family: 'Raleway', sans-serif;
+}
+
+main #banner header .fa-bars{
+    color: #fff;
+    display: none;
+}
