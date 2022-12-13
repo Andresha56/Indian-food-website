@@ -17,11 +17,29 @@ a{
     font-family: 'Raleway', sans-serif;
 }
 .wrapper{
-    width: 95%;
+    width: 90%;
     max-width: 1400px;
     margin: auto;
 }
 
+h2{
+    font-size:2.9rem;
+    font-family: 'Raleway', sans-serif;
+}
+p{
+    font-size: 1.9rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+h3{
+    font-family: 'Raleway', sans-serif;
+    color: #2a3b40;
+    margin-bottom: 2rem;
+}
+
+
+/* ----------------------XXXXXXXXXXXXXXXXXXXXXXX------------------------ */
 
 main #banner{
     background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(./images/banner-Img.png);
@@ -95,4 +113,118 @@ main #banner #banner-content #content button{
 main #banner header .fa-bars{
     color: #fff;
     display: none;
+}
+
+
+/* -----------------------------traditional--flavours------section-------------------------- */
+
+#IndianTradition{
+    background-color:#2a3b40;
+}
+
+#IndianTradition .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:5rem 1rem;
+}
+#IndianTradition .wrapper #content-ifo h2{
+    color: #fff;
+}
+
+#IndianTradition .wrapper #content-ifo p{
+    color: #fff;
+    width: 80%;
+    margin-top: 30px;
+    line-height: 3rem;
+}
+#IndianTradition .wrapper #imgCon{
+    height: 100%;
+}
+#IndianTradition .wrapper #imgCon img{
+    display: block;
+    height: 100%;
+}
+
+
+/* -----------------------new---section------------------------- */
+
+#new{
+    background-color: #d4d8d9;
+}
+
+#new .wrapper{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 5rem 1rem;
+}
+#new .wrapper .content{
+    width: 30%;
+}
+#new .wrapper .content div{
+    height:2rem;
+    width: 2rem;
+    background-color: #2a3b40;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+/* -------------On----your------plate----------------- */
+
+#On-your-plate{
+    background-image:url(./images/banner-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+#On-your-plate .wrapper{
+    padding: 5rem 0;
+}
+
+
+
+
+/* ------------------on-----your-------------plate------------------- */
+#content{
+    background-color: rgba(255,255,255,0.7);
+    text-align: center;
+}
+#content>div{
+    padding: 5rem 0 ;
+}
+#content>div p{
+    font-family: 'Cookie', cursive;
+    font-size: 7.7rem;
+    color: #2a3b40;
+}
+#content>div h2{
+    color: #ad6c12;
+    font-size: 4.8rem;
+    font-weight: 500;
+}
+#grid-con{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+}
+#grid-con li{
+    list-style-type: none;
+    text-align: center;
+}
+#grid-con li>div{
+    width: 100%;
+}
+#grid-con li>div img{
+    display: block;
+    width: 100%;
+}
+#grid-con .grid-child-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#grid-con .info h3{
+    font-size: 1.8rem;
 }

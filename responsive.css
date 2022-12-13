@@ -5,7 +5,11 @@
         font-size: 55%;
     }
   }
-
+  @media screen and (max-width:300px){
+    html{
+        font-size: 40%;
+    }
+  }
   
 @media screen and (max-width: 750px) {
     main #banner header{
@@ -36,8 +40,63 @@
     }
   }
 
-  @media screen and (max-width:300px){
-    html{
-        font-size: 40%;
+
+
+  @media screen and (max-width:1140px){
+    #IndianTradition .wrapper #imgCon{
+        height: 100%;
+        width: 140rem;
+    }
+    #IndianTradition .wrapper #imgCon img{
+        display: block;
+        height: 100%;
+        width: 100%;
     }
   }
+
+  @media screen and (max-width:720px){
+    #IndianTradition .wrapper #content-ifo p{
+        line-height: 2rem;
+        width: 90%;
+    }
+
+  }
+
+  @media screen and (max-width:500px){
+    #IndianTradition .wrapper #imgCon{
+        display: none;
+    }
+
+    #IndianTradition .wrapper #content-ifo p {
+        line-height: 2rem;
+        width: 100%;
+    }
+  }
+
+  
+  @media screen and (max-width:600px){
+    #new .wrapper {
+        display:block;
+        padding: 5rem 1rem;
+    }
+    #new .wrapper{
+        padding-bottom: calc(5rem - 4rem);
+    }
+    #new .wrapper .content{
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+  }
+
+
+
+
+
+/* ---------------on-----your-----plate-------------- */
+@media screen and (max-width:700px){
+    #grid-con{
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        grid-gap: 4px;
+    }
+}
