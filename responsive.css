@@ -40,6 +40,13 @@
     }
   }
 
+  @media screen and (max-width: 240px){
+    main #banner #banner-content #content{
+        padding: 0;
+    }
+  }
+
+
 
 
   @media screen and (max-width:1140px){
@@ -128,5 +135,30 @@
         display: grid;
         grid-template-columns: repeat(1,1fr);   
         gap: 1rem;
+    }
+}
+@media screen and (max-width:254px){
+    #menu .wrapper {
+        padding: 0rem;
+    }
+}
+
+/* -------------------form-----------------responsive---------------------- */
+
+@media screen and (max-width:625px){
+    #booking-sec .wrapper ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      #booking-sec .wrapper ul div{
+        margin:0 10px;
+      }
+}
+
+@media screen and (max-width:205px){
+    #booking-sec .wrapper ul div input{
+        padding: 0.4rem 0;
     }
 }

@@ -253,11 +253,11 @@ main #banner header .fa-bars {
 
 
 #menu {
-  background-image: url(./images/banner-3.jpg);
+  background-image: url(./images/banner-4.jpg);
   background-repeat: no-repeat;
   display: block;
   height: auto;
-  padding: 4rem;
+  padding: 13rem 0 0 0;
   background-size: cover;
 }
 
@@ -312,4 +312,73 @@ main #banner header .fa-bars {
 #menu .wrapper ul li p{
     margin-bottom: 2rem;
     width: 75%;
+}
+
+
+
+/* -----------------------simple-------image------section------------------------ */
+
+#img-sec{
+  height: 600px;
+}
+#img-sec img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* ------------------booking------section------------------ */
+
+#booking-sec{
+  background-color: #2a3b40;
+}
+
+#booking-sec h2{
+  text-align: center;
+  font-family: "Cookie", cursive;
+  font-size: 7.7rem;
+  font-weight: 500;
+  color: #fff;
+  padding: 2rem 0;
+}
+#booking-sec .wrapper ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+#booking-sec .wrapper ul div{
+ display: flex;
+ flex-direction: column;
+}
+#booking-sec .wrapper ul div label{
+  font-size: 1.7rem;
+  color: #fff;
+  font-family:"Raleway", sans-serif ;
+}
+#booking-sec .wrapper ul div input{
+  padding: 0.4rem;
+  border: 1px solid #d4d8d9;
+  background: transparent;
+  outline: 0;
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+#booking-sec .wrapper ul div input ::placeholder{
+  color: #fff !important;
+}
+#booking-sec .wrapper form #btn{
+    text-align: center;
+}
+
+#booking-sec .wrapper form #btn input{
+  padding: 0.5rem 5rem;
+  background: transparent;
+  border: 1px solid #d4d8d9;
+  margin:3rem 0  5rem 0;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Raleway", sans-serif ;
+  outline: 0;
+
 }
