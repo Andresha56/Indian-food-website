@@ -100,3 +100,33 @@
         grid-gap: 4px;
     }
 }
+
+
+@media screen and (max-width:462px){
+    #traditional-cuisine .wrapper #options p{
+        margin: 0 1rem;
+    }
+}
+
+/* ------------------menu-----responsive---------------- */
+
+@media screen and (max-width:800px){
+    #menu .wrapper ul li p{
+        margin-bottom: 2rem;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:600px){
+    #menu .wrapper ul li .img {
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (max-width:540px){
+    #menu .wrapper ul{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);   
+        gap: 1rem;
+    }
+}

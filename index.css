@@ -1,230 +1,315 @@
-@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Raleway:wght@500;600;700;800;900&display=swap');
-*{
-    padding: 0;
-    margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Raleway:wght@500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
 }
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
 
 /* --------global-----values---------------- */
 
-a{
-    color: #fff;
-    font-size: 2rem;
-    font-weight: 700;
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
+a {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
 }
-.wrapper{
-    width: 90%;
-    max-width: 1400px;
-    margin: auto;
-}
-
-h2{
-    font-size:2.9rem;
-    font-family: 'Raleway', sans-serif;
-}
-p{
-    font-size: 1.9rem;
-    font-family: 'Raleway', sans-serif;
+.wrapper {
+  width: 90%;
+  max-width: 1400px;
+  margin: auto;
 }
 
-
-h3{
-    font-family: 'Raleway', sans-serif;
-    color: #2a3b40;
-    margin-bottom: 2rem;
+h2 {
+  font-size: 2.9rem;
+  font-family: "Raleway", sans-serif;
+}
+p {
+  font-size: 1.9rem;
+  font-family: "Raleway", sans-serif;
 }
 
+h3 {
+  font-family: "Raleway", sans-serif;
+  color: #2a3b40;
+  margin-bottom: 2rem;
+}
 
 /* ----------------------XXXXXXXXXXXXXXXXXXXXXXX------------------------ */
 
-main #banner{
-    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(./images/banner-Img.png);
-    height:100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position:bottom;
+main #banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(./images/banner-Img.png);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
-main #banner .wrapper{
-    height: 100%;
+main #banner .wrapper {
+  height: 100%;
 }
-main #banner .wrapper #logo a{
-    font-size: 3rem;
+main #banner .wrapper #logo a {
+  font-size: 3rem;
 }
-main #banner header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px 40px 0 40px ;
-
+main #banner header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 40px 0 40px;
 }
-main #banner header nav ul{
-    display: flex;
-
-}
-
-main #banner header nav ul li{
-    list-style-type:none;
-    margin: 0 20px;
+main #banner header nav ul {
+  display: flex;
 }
 
-main #banner #banner-content{
-    height:calc(100% - 80px);
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-main #banner #banner-content #content{
-    padding:6rem 7rem;
-    background-color:rgba(255,255,255,0.7);
-    text-align: center;
+main #banner header nav ul li {
+  list-style-type: none;
+  margin: 0 20px;
 }
 
-main #banner #banner-content #content h1{
-    color: #2c3a42;
-    font-size: 5rem;
-    font-family: 'Cookie', cursive;
-    font-weight: lighter;
+main #banner #banner-content {
+  height: calc(100% - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #banner #banner-content #content {
+  padding: 6rem 7rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: center;
 }
 
-
-main #banner #banner-content #content h2{
-    color:#ad6c12; 
-    font-size: 5rem;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
+main #banner #banner-content #content h1 {
+  color: #2c3a42;
+  font-size: 5rem;
+  font-family: "Cookie", cursive;
+  font-weight: lighter;
 }
 
-main #banner #banner-content #content button{
-    border-color: #fff;
-    border: 0;
-    outline: 0;
-    padding: 1rem;
-    margin-top: 1.5rem;
-    font-size: 1.4rem;
-    font-weight: bold;
-    color: #2c3a42;
-    font-family: 'Raleway', sans-serif;
+main #banner #banner-content #content h2 {
+  color: #ad6c12;
+  font-size: 5rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
 }
 
-main #banner header .fa-bars{
-    color: #fff;
-    display: none;
+main #banner #banner-content #content button {
+  border-color: #fff;
+  border: 0;
+  outline: 0;
+  padding: 1rem;
+  margin-top: 1.5rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #2c3a42;
+  font-family: "Raleway", sans-serif;
 }
 
+main #banner header .fa-bars {
+  color: #fff;
+  display: none;
+}
 
 /* -----------------------------traditional--flavours------section-------------------------- */
 
-#IndianTradition{
-    background-color:#2a3b40;
+#IndianTradition {
+  background-color: #2a3b40;
 }
 
-#IndianTradition .wrapper{
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
-    padding:5rem 1rem;
+#IndianTradition .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem 1rem;
 }
-#IndianTradition .wrapper #content-ifo h2{
-    color: #fff;
-}
-
-#IndianTradition .wrapper #content-ifo p{
-    color: #fff;
-    width: 80%;
-    margin-top: 30px;
-    line-height: 3rem;
-}
-#IndianTradition .wrapper #imgCon{
-    height: 100%;
-}
-#IndianTradition .wrapper #imgCon img{
-    display: block;
-    height: 100%;
+#IndianTradition .wrapper #content-ifo h2 {
+  color: #fff;
 }
 
+#IndianTradition .wrapper #content-ifo p {
+  color: #fff;
+  width: 80%;
+  margin-top: 30px;
+  line-height: 3rem;
+}
+#IndianTradition .wrapper #imgCon {
+  height: 100%;
+}
+#IndianTradition .wrapper #imgCon img {
+  display: block;
+  height: 100%;
+}
 
 /* -----------------------new---section------------------------- */
 
-#new{
-    background-color: #d4d8d9;
+#new {
+  background-color: #d4d8d9;
 }
 
-#new .wrapper{
-    display: flex;
-    justify-content:space-evenly;
-    padding: 5rem 1rem;
+#new .wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5rem 1rem;
 }
-#new .wrapper .content{
-    width: 30%;
+#new .wrapper .content {
+  width: 30%;
 }
-#new .wrapper .content div{
-    height:2rem;
-    width: 2rem;
-    background-color: #2a3b40;
-    border-radius: 50%;
-    display: inline-block;
-
+#new .wrapper .content div {
+  height: 2rem;
+  width: 2rem;
+  background-color: #2a3b40;
+  border-radius: 50%;
+  display: inline-block;
 }
 
 /* -------------On----your------plate----------------- */
 
-#On-your-plate{
-    background-image:url(./images/banner-2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    object-fit: cover;
+#On-your-plate {
+  background-image: url(./images/banner-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
 }
-#On-your-plate .wrapper{
-    padding: 5rem 0;
+#On-your-plate .wrapper {
+  padding: 5rem 0;
 }
-
-
-
 
 /* ------------------on-----your-------------plate------------------- */
-#content{
-    background-color: rgba(255,255,255,0.7);
+#content {
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
+#content > div {
+  padding: 5rem 0;
+}
+#content > div p {
+  font-family: "Cookie", cursive;
+  font-size: 7.7rem;
+  color: #2a3b40;
+}
+#content > div h2 {
+  color: #ad6c12;
+  font-size: 4.8rem;
+  font-weight: 500;
+}
+#grid-con {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+#grid-con li {
+  list-style-type: none;
+  text-align: center;
+}
+#grid-con li > div {
+  width: 100%;
+}
+#grid-con li > div img {
+  display: block;
+  width: 100%;
+}
+#grid-con .grid-child-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#grid-con .info h3 {
+  font-size: 1.8rem;
+}
+
+/* ----------------------------traditional-----cuisine-------------------- */
+#traditional-cuisine {
+  background-color: #d4d8d9;
+  text-align: center;
+  padding: 5rem;
+}
+
+#traditional-cuisine h2 {
+  color: #2a3b40;
+}
+#traditional-cuisine p {
+  width: 60%;
+  margin: auto;
+  margin: 3rem auto;
+}
+#traditional-cuisine .wrapper .circle {
+  background-color: #2a3b40;
+  padding: 1rem;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 3rem;
+}
+
+#traditional-cuisine .wrapper #options p {
+  display: inline;
+  margin: 0 2rem;
+  font-weight: bold;
+  color: #2a3b40;
+}
+
+/* ------------------manu----------------- */
+
+
+#menu {
+  background-image: url(./images/banner-3.jpg);
+  background-repeat: no-repeat;
+  display: block;
+  height: auto;
+  padding: 4rem;
+  background-size: cover;
+}
+
+#menu #main-con{
+  background-color: rgba(255, 255, 255, 0.7);
+
+}
+
+#menu .wrapper {
+  padding: 2rem;
+}
+#menu .wrapper>p{
     text-align: center;
-}
-#content>div{
-    padding: 5rem 0 ;
-}
-#content>div p{
-    font-family: 'Cookie', cursive;
+    font-family: "Cookie", cursive;
     font-size: 7.7rem;
     color: #2a3b40;
 }
-#content>div h2{
+#menu .wrapper h2{
+    text-align: center;
     color: #ad6c12;
     font-size: 4.8rem;
     font-weight: 500;
 }
-#grid-con{
+
+#menu .wrapper ul{
     display: grid;
-    grid-template-columns:repeat(4,1fr);
+    grid-template-columns: repeat(2,1fr);   
+    gap: 1rem;
 }
-#grid-con li{
+#menu .wrapper ul li {
     list-style-type: none;
-    text-align: center;
-}
-#grid-con li>div{
-    width: 100%;
-}
-#grid-con li>div img{
-    display: block;
-    width: 100%;
-}
-#grid-con .grid-child-div{
+    margin: auto;
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
+    height: 100%;
+}
+#menu .wrapper ul li .img{
+  margin-right: 3rem;
+}
+#menu .wrapper ul li .img img{
+  display: block;
+  padding: 1rem 0.8rem;
+  border-radius: 50%;
+  background-color: #ffff;
 }
 
-#grid-con .info h3{
+#menu .wrapper ul li h3{
     font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+#menu .wrapper ul li p{
+    margin-bottom: 2rem;
+    width: 75%;
 }
