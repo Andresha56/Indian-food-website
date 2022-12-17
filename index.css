@@ -37,6 +37,18 @@ h3 {
   margin-bottom: 2rem;
 }
 
+.sub-heading{
+  text-align: center;
+  font-family: "Cookie", cursive;
+  font-size: 7.7rem;
+  color: #2a3b40;
+}
+.heading{
+  text-align: center;
+    color: #ad6c12;
+    font-size: 4.8rem;
+    font-weight: 500;
+}
 /* ----------------------XXXXXXXXXXXXXXXXXXXXXXX------------------------ */
 
 main #banner {
@@ -183,16 +195,7 @@ main #banner header .fa-bars {
 #content > div {
   padding: 5rem 0;
 }
-#content > div p {
-  font-family: "Cookie", cursive;
-  font-size: 7.7rem;
-  color: #2a3b40;
-}
-#content > div h2 {
-  color: #ad6c12;
-  font-size: 4.8rem;
-  font-weight: 500;
-}
+
 #grid-con {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -269,18 +272,7 @@ main #banner header .fa-bars {
 #menu .wrapper {
   padding: 2rem;
 }
-#menu .wrapper>p{
-    text-align: center;
-    font-family: "Cookie", cursive;
-    font-size: 7.7rem;
-    color: #2a3b40;
-}
-#menu .wrapper h2{
-    text-align: center;
-    color: #ad6c12;
-    font-size: 4.8rem;
-    font-weight: 500;
-}
+
 
 #menu .wrapper ul{
     display: grid;
@@ -381,4 +373,72 @@ main #banner header .fa-bars {
   font-family: "Raleway", sans-serif ;
   outline: 0;
 
+}
+
+/* ------------------CARDS------------------- */
+#cards{
+  background-color:#d4d8d9;
+}
+
+#cards ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+#cards ul li{
+  margin: 0 20px;
+  list-style-type: none; 
+  background-color: #fff;
+  
+} 
+#cards ul li .img-con{
+  width: 100%;
+}
+#cards ul li img{
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+#cards ul li .txt-con{
+  padding: 0 1rem 2rem 1rem;
+  box-sizing: border-box;
+}
+#cards ul li .iteam-date{
+  font-size: 1.7rem;
+  margin: 1rem 0;
+  color: #4f4e4e;
+  font-weight: bold;
+}
+
+#cards ul li  .title{
+    font-weight: bolder;
+    color: #4f4e4e;
+}
+#cards .wrapper>p{
+  padding-top: 4rem;
+}
+#cards h2{
+  margin-bottom: 4rem;
+}
+#cards ul li  button{
+  background: transparent;
+  border:0;
+  outline: 0;
+  margin-top:2rem;
+  font-size: 1.5rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+  color: #4f4e4e;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 1rem;
+
+}
+
+#cards ul li  button::before{
+  content: "";
+  position:absolute;
+  border: 2px solid #ff992b;
+  width: 100%;
+  bottom:-5px;
 }
