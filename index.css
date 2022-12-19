@@ -378,6 +378,7 @@ main #banner header .fa-bars {
 /* ------------------CARDS------------------- */
 #cards{
   background-color:#d4d8d9;
+  padding-bottom: 5rem;
 }
 
 #cards ul{
@@ -441,4 +442,39 @@ main #banner header .fa-bars {
   border: 2px solid #ff992b;
   width: 100%;
   bottom:-5px;
+}
+
+footer{
+  background-color: #2a3b40;
+  padding-bottom:4rem ;
+}
+footer .wrapper{
+  text-align: center;
+
+
+}
+footer .wrapper{
+  padding: 1rem auto 4rem auto; 
+}
+
+footer .wrapper #txt{
+  width: 60%;
+  padding: 5rem  10px ;
+  margin: auto;
+  color: #fff;
+  font-size: 1.9rem;
+  font-family: "Raleway", sans-serif;
+  
+}
+footer  .wrapper p{
+  color: #fff;
+}
+
+footer .wrapper i{
+  margin: 5rem 2rem 0 2rem;
+  background-color: #fff;
+  color: #2a3b40;
+
+  padding:1rem 1.1rem;
+  border-radius: 50%;
 }

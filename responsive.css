@@ -143,6 +143,40 @@
     }
 }
 
+@media screen and (max-width:900px){
+    #img-sec {
+        height: 400px;
+    }
+    
+    
+}
+
+
+@media screen and (max-width:600px){
+    #img-sec {
+        height: 300px;
+    }
+    
+    
+}
+
+
+@media screen and (max-width:500px){
+    #img-sec {
+        height: 200px;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
 /* -------------------form-----------------responsive---------------------- */
 
 @media screen and (max-width:625px){
@@ -188,5 +222,13 @@
     }
     #cards ul li{
         width:100%;
+    }
+}
+
+@media screen and (max-width:350px){
+    #social_media_sec .wrapper i{
+        margin: 5rem 1rem 0 1rem;
+     
+    
     }
 }
