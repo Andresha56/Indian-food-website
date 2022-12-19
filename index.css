@@ -118,9 +118,14 @@ main #banner #banner-content #content button {
   font-family: "Raleway", sans-serif;
 }
 
-main #banner header .fa-bars {
+main #banner header .fa-bars{
   color: #fff;
+  display: none ;
+}
+
+main #banner header .fa-xmark{
   display: none;
+  color: #fff;
 }
 
 /* -----------------------------traditional--flavours------section-------------------------- */
@@ -444,6 +449,8 @@ main #banner header .fa-bars {
   bottom:-5px;
 }
 
+
+/* -------------------footer------------------------ */
 footer{
   background-color: #2a3b40;
   padding-bottom:4rem ;

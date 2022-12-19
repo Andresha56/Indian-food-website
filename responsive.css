@@ -107,6 +107,12 @@
         grid-gap: 4px;
     }
 }
+@media screen and (max-width:462px){
+    #traditional-cuisine p {
+        width: 100%;
+    }
+}
+
 
 
 @media screen and (max-width:462px){
